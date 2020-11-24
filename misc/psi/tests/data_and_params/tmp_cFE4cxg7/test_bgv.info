@@ -1,0 +1,17 @@
+Key switching matrices created.
+Frobenius matrices created.
+m = 1291, p = 71, phi(m) = 1290
+  ord(p) = 215
+  normBnd = 1.27324
+  polyNormBnd = 1.27324
+  factors = [1291]
+  generator 347 has order (== Z_m^*) of 6
+  T = [ 1 347 346 1290 944 945 ]
+r = 1
+nslots = 6
+hwt = 0
+ctxtPrimes = [6]
+specialPrimes = [7]
+number of bits = 100
+
+security level = 32.788
