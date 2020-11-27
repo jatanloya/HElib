@@ -14,8 +14,9 @@
 utils_dir="../../../../utils"
 load "../../../utils/tests/std"
 
-modulus=257
-nslots=13860
+#modulus=257
+modulus=1291
+nslots=6
 #nslots=79872
 #modulus=1278209
 datadir="data_and_params"
@@ -122,7 +123,7 @@ function teardown {
 }
 
 @test "lookup 4 threads" {
-  skip
+  #skip
   echo "lookup 4 threads" > README
   $lookup ${data_prefix}/${prefix_bgv}.pk $data_prefix/db.ctxt $data_prefix/query.ctxt result.ctxt -n=4
 
