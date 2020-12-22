@@ -21,8 +21,8 @@ nslots=6
 #modulus=1278209
 datadir="data_and_params"
 data_prefix="../$datadir"
-db_encoded="../db${nslots}.enc"
-query_encoded="../query${nslots}.enc"
+db_encoded="../db${nslots}.encoded"
+query_encoded="../query${nslots}.encoded"
 scoring="../../build/bin/scoring"
 
 # Run once per test
